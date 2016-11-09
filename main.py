@@ -7,6 +7,8 @@ if x == 2 or y == "watsup dan":
     y = "hello world"
 
     #testing from github
+    #as0vja09sjv0a9sjv
+
 
 print x
 print y
