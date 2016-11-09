@@ -1,14 +1,26 @@
-x = 5 -3
-y = "watsup dan"
-z = 3.14
+'''
+	Script	 : calculator.py
+	Author	 : < add member names here ... >
+	Requires : < add python version number here ... >
+	Purpose  : basic python calculator that does simple addition, substraction, division and multiplication.
+'''
 
-if x == 2 or y == "watsup dan":
-    x = x + 1
-    y = "hello world"
+class CalculatorException ( Exception ) :
+	pass
 
-    #feel free to add anything u like
-    
+def add ( x , y ) :
+	return ( x + y )
+
+def substract ( x , y ) :
+	return ( x - y )
+
+def divide ( x, y ) :
+	if ( x == 0 or y == 0 ) :
+		raise CalculatorException ( 'Division by 0 is not allowed!' )
+	return ( x / y)
+
+def multiply ( x, y ) :
+	return ( x * y )
 
 
-print x
-print y
+''' Parse user input here and call appropriate function. '''
