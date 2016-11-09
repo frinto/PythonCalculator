@@ -14,12 +14,12 @@ def add ( x , y ) :
 def substract ( x , y ) :
 	return ( x - y )
 
-def divide ( x, y ) :
+def divide ( x , y ) :
 	if ( x == 0 or y == 0 ) :
 		raise CalculatorException ( 'Division by 0 is not allowed!' )
 	return ( x / y)
 
-def multiply ( x, y ) :
+def multiply ( x , y ) :
 	return ( x * y )
 
 
