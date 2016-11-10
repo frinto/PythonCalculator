@@ -13,12 +13,12 @@ Switch | LHS | RHS | Description
 
 ###Usage
 Skeleton:
-```python
+```
 > python <script> <switch> <number> <number>  # Windows
 $ ./<script> <switch> <number> <number>  # Linux
 ```
 Examples:
-```python
+```
 > python calculator.py -a 1336 1  # Windows - Addition
 > python calculator.py -s 1336 1  # Windows - Substraction
 > python calculator.py -d 1336 1  # Windows - Division
