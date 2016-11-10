@@ -1,11 +1,11 @@
 #PythonCalculator
 
-###Description
+###*Description*
 A simple calculator written in ***Python*** that can perform simple **addition**, **substraction**, **division** and **multiplication**.
 
 --
 
-###Parameters
+###*Parameters*
 Switch | LHS | RHS | Description
 --- | --- | --- | ---
 -a | 0 - 9 | 0 - 9 | Performs addition between two numbers.
@@ -15,7 +15,7 @@ Switch | LHS | RHS | Description
 
 --
 
-###Usage
+###*Usage*
 Skeleton:
 ```
 > python <script> <switch> <number> <number>        # Windows
