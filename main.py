@@ -6,7 +6,7 @@ if x == 2 or y == "watsup dan":
     x = x + 1
     y = "hello world"
 
-    #test pull
+    #feel free to add anything u like
     
 
 
