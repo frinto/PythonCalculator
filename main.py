@@ -2,10 +2,10 @@
 
 '''
 	Script	 : calculator.py
-	Author	 : < add member names here ... >
-	Requires : < add python version number here ... >
+	Authors  : Huy, Dan and Dirge
 	Purpose  : basic python calculator that does simple addition, substraction, division and multiplication.
 '''
+
 ''' Imports '''
 import sys
 
