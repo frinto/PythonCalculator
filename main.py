@@ -44,18 +44,12 @@ def EntryPoint ( ) :
 	if ( actions.get ( sys.argv [ 1 ] ) == None ) :
 		raise CalculatorException ( '%s is not a recognized switch!' % sys.argv [ 1 ] )
 
-	# Sanity check. Let us make sure the input are numerical values ( 0 - 9 )
-	if ( sys.argv [ 2 ] . isdigit ( ) and sys.argv [ 3 ] . isdigit ( ) ) :
-		lhs = int ( sys.argv [ 2 ] )
-		rhs = int ( sys.argv [ 3 ] )
+	lhs = float ( sys.argv [ 2 ] )
+	rhs = float ( sys.argv [ 3 ] )
 
-		print (
-			actions [ sys.argv [ 1 ] ] ( lhs , rhs )
-		)
-	else :
-		raise CalculatorException (
-			'Either lhs or rhs contains invalid input... ( %s | %s )' % ( sys.argv [ 2 ] , sys.argv [ 3 ] )
-		)
+	print (
+		actions [ sys.argv [ 1 ] ] ( lhs , rhs )
+	)
 
 if ( __name__ == '__main__' ) :
 	EntryPoint ( )
