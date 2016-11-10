@@ -1,5 +1,11 @@
 #README
 
+How to use Calculator
+Use command python calculator.py <switch> <number>
+
+For example python calculator.py -a 100 100
+Will do addition
+
 How to use github in Pycharm or IntelliJ
 
 ---Initial setup----
