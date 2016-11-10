@@ -2,7 +2,7 @@
 
 '''
 	Script	 : calculator.py
-	Authors  : Huy, Dan and Dirge
+	Big thanks to vrori for writing this code hopefully we learn from it ^^
 	Purpose  : basic python calculator that does simple addition, substraction, division and multiplication.
 '''
 
