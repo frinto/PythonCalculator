@@ -19,13 +19,13 @@ $ ./<script> <switch> <number> <number>  # Linux
 ```
 Examples:
 ```
-> python calculator.py -a 1336 1  # Windows - Addition
-> python calculator.py -s 1336 1  # Windows - Substraction
-> python calculator.py -d 1336 1  # Windows - Division
-> python calculator.py -m 1336 1  # Windows - Multiplication
+> python calculator.py -a 1336 1            # Windows - Addition
+> python calculator.py -s 1336 1            # Windows - Substraction
+> python calculator.py -d 1336 1            # Windows - Division
+> python calculator.py -m 1336 1            # Windows - Multiplication
 
-$ ./calculator.py -a 1336 1 # Linux - Addition
-$ ./calculator.py -s 1336 1 # Linux - Substraction
-$ ./calculator.py -d 1336 1 # Linux - Division
-$ ./calculator.py -m 1336 1 # Linux - Multiplication
+$ ./calculator.py -a 1336 1                 # Linux - Addition
+$ ./calculator.py -s 1336 1                 # Linux - Substraction
+$ ./calculator.py -d 1336 1                 # Linux - Division
+$ ./calculator.py -m 1336 1                 # Linux - Multiplication
 ```
