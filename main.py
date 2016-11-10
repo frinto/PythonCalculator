@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 '''
 	Script	 : calculator.py
 	Author	 : < add member names here ... >
@@ -5,16 +7,13 @@
 	Purpose  : basic python calculator that does simple addition, substraction, division and multiplication.
 '''
 ''' Imports '''
-
 import sys
 
 ''' Classes '''
-
 class CalculatorException ( Exception ) :
 	pass
 
 ''' Functions '''
-
 def addition ( x , y ) :
 	return ( x + y )
 
@@ -31,7 +30,6 @@ def multiply ( x, y ) :
 
 
 ''' Main Program '''
-
 actions = {
 	'-a' : addition,
 	'-s' : substract,
@@ -56,7 +54,7 @@ def EntryPoint ( ) :
 		)
 	else :
 		raise CalculatorException (
-			'Either lhs or rhs contains invalid input ( %s | %s )' % ( sys.argv [ 2 ] , sys.argv [ 3 ] )
+			'Either lhs or rhs contains invalid input... ( %s | %s )' % ( sys.argv [ 2 ] , sys.argv [ 3 ] )
 		)
 
 if ( __name__ == '__main__' ) :
