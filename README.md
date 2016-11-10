@@ -6,10 +6,10 @@ A simple calculator written in ***Python*** that can perform simple **addition**
 ###Parameters
 Switch | LHS | RHS | Description
 --- | --- | --- | ---
--a | 0 - 9 | 0 - 9 | Performs addition between two integers.
--s | 0 - 9 | 0 - 9 | Performs substraction between two integers.
--d | 0 - 9 | 0 - 9 | Performs division between two integers.
--m | 0 - 9 | 0 - 9 | Performs multiplication between two integers.
+-a | 0 - 9 | 0 - 9 | Performs addition between two numbers.
+-s | 0 - 9 | 0 - 9 | Performs substraction between two numbers.
+-d | 0 - 9 | 0 - 9 | Performs division between two numbers.
+-m | 0 - 9 | 0 - 9 | Performs multiplication between two numbers.
 
 ###Usage
 Skeleton:
