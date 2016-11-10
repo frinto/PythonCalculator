@@ -3,6 +3,8 @@
 ###Description
 A simple calculator written in ***Python*** that can perform simple **addition**, **substraction**, **division** and **multiplication**.
 
+--
+
 ###Parameters
 Switch | LHS | RHS | Description
 --- | --- | --- | ---
@@ -10,6 +12,8 @@ Switch | LHS | RHS | Description
 -s | 0 - 9 | 0 - 9 | Performs substraction between two numbers.
 -d | 0 - 9 | 0 - 9 | Performs division between two numbers.
 -m | 0 - 9 | 0 - 9 | Performs multiplication between two numbers.
+
+--
 
 ###Usage
 Skeleton:
@@ -29,3 +33,4 @@ $ ./calculator.py -s 1338 1                         # Linux - Substraction
 $ ./calculator.py -d 2674 2                         # Linux - Division
 $ ./calculator.py -m 668 2                          # Linux - Multiplication
 ```
+--
