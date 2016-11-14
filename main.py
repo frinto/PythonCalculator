@@ -39,10 +39,10 @@ def multiply(x, y):
 
 ''' Main Program '''
 actions = {
-    '-a': addition,
-    '-s': substract,
-    '-d': divide,
-    '-m': multiply
+    '-addition': addition,
+    '-subtract': substract,
+    '-division': divide,
+    '-multiply': multiply
 }
 
 
@@ -53,11 +53,11 @@ def EntryPoint():
     if (actions.get(sys.argv[1]) == None):
         raise CalculatorException('%s is not a recognized switch!' % sys.argv[1])
 
-    lhs = float(sys.argv[2])
-    rhs = float(sys.argv[3])
+    leftHandSide = float(sys.argv[2])
+    rightHandSide = float(sys.argv[3])
 
     print (
-        actions[sys.argv[1]](lhs, rhs)
+        actions[sys.argv[1]](leftHandSide, rightHandSide)
     )
 
 
