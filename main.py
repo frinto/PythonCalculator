@@ -2,7 +2,7 @@
 
 '''
 	Script	 : calculator.py
-	Big thanks to vrori for writing this code hopefully we learn from it ^^
+	Big thanks to vrori for writing this code we will need to remodify it and simplify it a bit so our classmates can understand
 	Purpose  : basic python calculator that does simple addition, substraction, division and multiplication.
 '''
 
@@ -10,46 +10,56 @@
 import sys
 
 ''' Classes '''
-class CalculatorException ( Exception ) :
-	pass
+
+
+class CalculatorException(Exception):
+    pass
+
 
 ''' Functions '''
-def addition ( x , y ) :
-	return ( x + y )
 
-def substract ( x , y ) :
-	return ( x - y )
 
-def divide ( x, y ) :
-	if ( x == 0 or y == 0 ) :
-		raise CalculatorException ( 'Division by 0 is not allowed!' )
-	return ( x / y)
+def addition(x, y):
+    return (x + y)
 
-def multiply ( x, y ) :
-	return ( x * y )
+
+def substract(x, y):
+    return (x - y)
+
+
+def divide(x, y):
+    if (x == 0 or y == 0):
+        raise CalculatorException('Division by 0 is not allowed!')
+    return (x / y)
+
+
+def multiply(x, y):
+    return (x * y)
 
 
 ''' Main Program '''
 actions = {
-	'-a' : addition,
-	'-s' : substract,
-	'-d' : divide,
-	'-m' : multiply
+    '-a': addition,
+    '-s': substract,
+    '-d': divide,
+    '-m': multiply
 }
 
-def EntryPoint ( ) :
-	if ( len ( sys.argv ) != 4 ) :
-		raise CalculatorException ( 'Usage: calculator.py <switch> <number> <number>' )
 
-	if ( actions.get ( sys.argv [ 1 ] ) == None ) :
-		raise CalculatorException ( '%s is not a recognized switch!' % sys.argv [ 1 ] )
+def EntryPoint():
+    if (len(sys.argv) != 4):
+        raise CalculatorException('Usage: calculator.py <switch> <number> <number>')
 
-	lhs = float ( sys.argv [ 2 ] )
-	rhs = float ( sys.argv [ 3 ] )
+    if (actions.get(sys.argv[1]) == None):
+        raise CalculatorException('%s is not a recognized switch!' % sys.argv[1])
 
-	print (
-		actions [ sys.argv [ 1 ] ] ( lhs , rhs )
-	)
+    lhs = float(sys.argv[2])
+    rhs = float(sys.argv[3])
 
-if ( __name__ == '__main__' ) :
-	EntryPoint ( )
+    print (
+        actions[sys.argv[1]](lhs, rhs)
+    )
+
+
+if (__name__ == '__main__'):
+    EntryPoint()
