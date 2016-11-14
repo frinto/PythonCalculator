@@ -39,9 +39,9 @@ def multiply(x, y):
 
 ''' Main Program '''
 actions = {
-    '-addition': addition,
+    '-add': addition,
     '-subtract': substract,
-    '-division': divide,
+    '-divide': divide,
     '-multiply': multiply
 }
 
@@ -56,9 +56,7 @@ def EntryPoint():
     leftHandSide = float(sys.argv[2])
     rightHandSide = float(sys.argv[3])
 
-    print (
-        actions[sys.argv[1]](leftHandSide, rightHandSide)
-    )
+    print(actions[sys.argv[1]](leftHandSide, rightHandSide))
 
 
 if (__name__ == '__main__'):
