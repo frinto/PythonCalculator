@@ -3,7 +3,7 @@
 '''
 	Script	 : calculator.py
 	Big thanks to vrori for writing this code we will need to remodify it and simplify it a bit so our classmates can understand
-	Purpose  : basic python calculator that does simple addition, substraction, division and multiplication.
+	Purpose  : basic python calculator that does simple addition, substraction, division and multiplication
 '''
 
 ''' Imports '''
