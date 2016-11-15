@@ -1,5 +1,7 @@
 #PythonCalculator
 
+*** BIG THANKS TO MY GROUP MEMBERS, DANNY ROMERO, JULIAN NGAI, AND BIG THANKS TO MY FRIEND VRORI FOR TEACHING ME PYTHON***
+
 ###*Description*
 A simple calculator written in ***Python*** that can perform simple **addition**, **substraction**, **division** and **multiplication**.
 
