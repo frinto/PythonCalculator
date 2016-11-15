@@ -2,7 +2,7 @@
 
 '''
 	Script	 : calculator.py
-	Big thanks to vrori for writing this code we will need to remodify it and simplify it a bit so our classmates can understand
+	Big thanks to vrori for helping with this code as well as big thanks to all my teamates for helping out with it!!!
 	Purpose  : basic python calculator that does simple addition, substraction, division and multiplication
 '''
 
