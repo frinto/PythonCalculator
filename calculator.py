@@ -48,7 +48,7 @@ actions = {
 
 def EntryPoint():
 
-    #if length of arguments does not equal 4 then write error requiring correct number of input.
+    #if length of arguments does not equal 4 then write error requiring correct number of input
     if (len(sys.argv) != 4):
         raise CalculatorException('Usage: calculator.py <switch> <leftHandSideNumber> <rightHandSideNumber>')
 
