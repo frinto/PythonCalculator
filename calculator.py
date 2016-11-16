@@ -23,7 +23,7 @@ def addition(x, y):
     return (x + y)
 
 
-def substract(x, y):
+def subtract(x, y):
     return (x - y)
 
 
@@ -40,7 +40,7 @@ def multiply(x, y):
 ''' Main Program '''
 actions = {
     'add': addition,
-    'subtract': substract,
+    'subtract': subtract,
     'divide': divide,
     'multiply': multiply
 }
@@ -48,7 +48,7 @@ actions = {
 
 def EntryPoint():
 
-    #if length of arguments does not equal 4 then write error requiring correct number of input
+    #if length of arguments does not equal 4 then write error requiring correct number of input.
     if (len(sys.argv) != 4):
         raise CalculatorException('Usage: calculator.py <switch> <leftHandSideNumber> <rightHandSideNumber>')
 
