@@ -1,11 +1,5 @@
 #!/usr/bin/python
 
-'''
-	Script	 : calculator.py
-	Big thanks to vrori for helping with this code as well as big thanks to all my teamates for helping out with it!!!
-	Purpose  : basic python calculator that does simple addition, substraction, division and multiplication
-'''
-
 ''' Imports '''
 import sys
 
